@@ -1,10 +1,10 @@
-# W&M DATA 340-03 Project Description
+# W&M DATA 340-03 Project Overview
 
 ## Project Name 
 
 Terms & Conditions Evaluator 
 
-## Project Overview
+## Project Description
 
 “Terms & Conditions from Financial Institutions and Social Media Platforms”. We've all accepted them but did we actually read them? 
 
@@ -12,8 +12,16 @@ In a previous course, “Ethics in Data Science”, the issue of personal data b
 
 ## Objective
 
-Create a program, using NLP techniques, that produces a  scorecard that grades an/or ranks "terms & conditions" documents.
+Create a program, using to be determined NLP techniques, that produces a  scorecard that grades an/or ranks "terms & conditions" documents.
 
 Extract the key elements from the documents and attempt to summarize what they stated. 
 
+## Questions To Be Answered
 
+What reading grade level are these documents written at? Typically we hear news articles are written for an 8th grade reading level. How do these compare?
+
+How lengthy are they typically? How long would it take the average consumer to read them?
+
+## Challenges
+
+How to obtain "terms and conditions"? Possibly will involve screen scraping from web sites.
