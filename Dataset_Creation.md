@@ -9,7 +9,8 @@ Terms & Conditions Evaluator
 “Terms & Conditions from Financial Institutions and Social Media Platforms”. We've all accepted them but did we actually read them? 
 
 
-## Sources of Data
+## Sources of Data 
+All data comes from companies' public web sites
 
 * Truth Social
 https://help.truthsocial.com/legal/terms-of-service/
@@ -33,7 +34,12 @@ https://annualcreditreport.transunion.com/dss/termsOfUse.page?
 
 All sources give consent for their terms of service to be read. 
 
+At this point the corpus, a dataframe, could consist of multiple documents. One for each "terms of service". a single dataframe may not be the best way to represent the data. It may require a separate dataframe per site. 
+
+The evaluation would be mainly performed on each document stand alone.  Unclear of the value of TF-IDF for this but it will be calculated. 
+
 
 ## Challenges
 
-Web Pages can be difficult to scrap. If needed they can be converted to PDF Files and then read in
+Certain web pages are proving difficult to scrap. Rarely does a company actually place the readbale text in the body of the html where it can be easily extracted. If needed it is hoped that they can be converted to PDF Files and then read in. 
+
